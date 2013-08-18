@@ -1,0 +1,14 @@
+name: Mch::Web
+View::TT:
+  INCLUDE_PATH:
+    - root/tmpl
+  TEMPLATE_EXTENSION: '.tt'
+  ENCODING : utf-8
+Model::DBIC:
+  connect_info:
+    - 'dbi:mysql:Mch'
+    - 'root'
+    - '
+    - mysql_enable_utf8 : 1'
+
+

@@ -1,0 +1,32 @@
+<div data-role="page" id="list" data-add-back-btn="true" data-position="fixed">
+    <div data-role="header">
+        <h1>リスト</h1>
+    </div>
+    <div data-role="content">
+		<ul data-role="listview" data-filter="true">
+			<li data-role="list-divider">日本語</li>
+			<li>
+				<a href="#menu">
+				<img src="../static/sample_image/fun.gif" alt="面白い画像" width="80" height="80" style="padding: 3px 3px 3px 3px"> 			
+				<h1>赤</h1>
+				<p>なんかの説明。なんかの説明。なんかの説明。</p>
+				</a>
+			</li>
+			<li><a href="#menu">青</a></li>
+			<li><a href="#menu">黄色</a></li>
+
+			<li data-role="list-divider">英語</li>
+			<li><a href="#menu">red</a></li>
+			<li><a href="#menu">blue</a></li>
+			<li><a href="#menu">yellow</a></li>
+		</ul>
+		
+        <p><a href="#home">ホーム</a></p>
+        <p><a href="#menu">メニュー</a></p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>Copyright 2012</h4>
+    </div>
+</div>
+
+
